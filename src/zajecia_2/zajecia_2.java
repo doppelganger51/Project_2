@@ -3,6 +3,11 @@ package zajecia_2;
 import java.util.Random;
 
 public class zajecia_2 {
+
+    public int sum(int a, int b){
+        return a+b;
+    }
+
     public static void main(String[] args) {
         int tablica_1 [] = new int[10];
         Random rnd = new Random();
@@ -20,6 +25,6 @@ public class zajecia_2 {
 
         for(int i=0; i< tablica_1.length; i++){
                 System.out.print("Wynik * : "+tablica_1[i]*tablica_2[i]+ " | ");
-       }
+        }
     }
 }
